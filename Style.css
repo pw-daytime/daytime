@@ -1,7 +1,10 @@
 body {
     background-color: rgb(221, 221, 136);
 }
-legend { text-align: center }
+legend { 
+    text-align: center 
+}
+
 form {
     position: absolute;
     left: 50%;
