@@ -1,0 +1,11 @@
+body {
+    background-color: rgb(221, 221, 136);
+}
+legend { text-align: center }
+form {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgb(165, 160, 147);
+    width: 800px;
+  }
