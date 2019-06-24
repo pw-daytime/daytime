@@ -4,7 +4,7 @@
 <head>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
         integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <link rel="stylesheet" href="Style.css">
+    <link rel="stylesheet" href="css/Style.css">
     <title>Informações de entrega </title>
 </head>
 
@@ -17,8 +17,8 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
-                <a class="nav-item nav-link active" href="index.html">Início <span class="sr-only">(current)</span></a>
-                <a class="nav-item nav-link" href="Venda.html">Venda</a>
+                <a class="nav-item nav-link active" href="index.jsp">Início <span class="sr-only">(current)</span></a>
+                <a class="nav-item nav-link" href="Venda.jsp">Venda</a>
                 <a class="nav-item nav-link" href="#">Produtos</a>
             </div>
         </div>
@@ -31,8 +31,8 @@
             <legend>Escolha dos Produtos</legend>
             <!-- Lista de produtos -->
             <ul class="list-group">
-                <li class="list-group-item"><img src="Produto.png" class="rounded-circle" alt="Cinque Terre" width="150"
-                        height="150">Produto 1 - Breve descrição do produto.
+                <li class="list-group-item"><img src="img/Produto.png" class="rounded-circle" alt="Cinque Terre"
+                        width="150" height="150">Produto 1 - Breve descrição do produto.
                     <!-- Valor do produto -->
                     <p>
                         <h6>Valor unitário<span class="badge badge-secondary">R$ 9,99</span></h6>
@@ -46,7 +46,7 @@
                 </li>
                 <!-- Lista de produtos -->
                 <ul class="list-group">
-                    <li class="list-group-item"><img src="Produto.png" class="rounded-circle" alt="Cinque Terre"
+                    <li class="list-group-item"><img src="img/Produto.png" class="rounded-circle" alt="Cinque Terre"
                             width="150" height="150">Produto 2 - Breve descrição do produto.
                         <!-- Valor do produto -->
                         <p>
@@ -61,7 +61,7 @@
                     </li>
                     <!-- Lista de produtos -->
                     <ul class="list-group">
-                        <li class="list-group-item"><img src="Produto.png" class="rounded-circle" alt="Cinque Terre"
+                        <li class="list-group-item"><img src="img/Produto.png" class="rounded-circle" alt="Cinque Terre"
                                 width="150" height="150">Produto 3 - Breve descrição do produto.
                             <!-- Valor do produto -->
                             <p>
@@ -77,7 +77,7 @@
                     </ul>
                     <!-- Lista de produtos -->
                     <ul class="list-group">
-                        <li class="list-group-item"><img src="Produto.png" class="rounded-circle" alt="Cinque Terre"
+                        <li class="list-group-item"><img src="img/Produto.png" class="rounded-circle" alt="Cinque Terre"
                                 width="150" height="150">Produto 4 - Breve descrição do produto.
                             <!-- Valor do produto -->
                             <p>
@@ -93,7 +93,7 @@
                     </ul>
                     <!-- Lista de produtos -->
                     <ul class="list-group">
-                        <li class="list-group-item"><img src="Produto.png" class="rounded-circle" alt="Cinque Terre"
+                        <li class="list-group-item"><img src="img/Produto.png" class="rounded-circle" alt="Cinque Terre"
                                 width="150" height="150">Produto 5 - Breve descrição do produto.
                             <!-- Valor do produto -->
                             <p>
@@ -109,7 +109,7 @@
                     </ul>
                     <!-- Lista de produtos -->
                     <ul class="list-group">
-                        <li class="list-group-item"><img src="Produto.png" class="rounded-circle" alt="Cinque Terre"
+                        <li class="list-group-item"><img src="img/Produto.png" class="rounded-circle" alt="Cinque Terre"
                                 width="150" height="150">Produto 6 - Breve descrição do produto.
                             <!-- Valor do produto -->
                             <p>

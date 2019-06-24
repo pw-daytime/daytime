@@ -8,20 +8,10 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="css/LoginStyle.css">
 
 </head>
-<style>
-    * {
-        padding: auto;
-        margin: auto;
-        text-align: centre;
-        background-color: lightblue;
-    }
 
-    h1 {
-        text-align: center;
-    }
-</style>
 
 <body>
     <h1>Login</h1>
@@ -37,12 +27,12 @@
 
             <br>
 
-            <button type="submit" class="btn btn-success"><a href="Venda.html">Entrar</a></button>
+            <button type="submit" class="btn btn-success"><a href="Venda.jsp">Entrar</a></button>
             
             <br>
-            Ainda não tem uma Conta ? <a href="Cadastro.html">Clique aqui para criá-la</a>
+            Ainda não tem uma Conta ? <a href="Cadastro.jsp">Clique aqui para criá-la</a>
             <br>
-            <a href="index.html">Voltar</a>
+            <a href="index.jsp">Voltar</a>
 
 
 
