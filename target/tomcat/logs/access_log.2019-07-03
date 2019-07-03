@@ -1,0 +1,11 @@
+0:0:0:0:0:0:0:1 - - [03/Jul/2019:16:48:57 -0300] "GET /daytime HTTP/1.1" 404 965 http-bio-9090-exec-1 26
+0:0:0:0:0:0:0:1 - - [03/Jul/2019:16:48:58 -0300] "GET /favicon.ico HTTP/1.1" 404 973 http-bio-9090-exec-3 1
+0:0:0:0:0:0:0:1 - - [03/Jul/2019:16:49:03 -0300] "GET / HTTP/1.1" 200 1193 http-bio-9090-exec-4 760
+0:0:0:0:0:0:0:1 - - [03/Jul/2019:16:49:03 -0300] "GET /css/Style.css HTTP/1.1" 200 234 http-bio-9090-exec-5 3
+0:0:0:0:0:0:0:1 - - [03/Jul/2019:16:49:07 -0300] "GET /Venda.jsp HTTP/1.1" 200 7232 http-bio-9090-exec-6 67
+0:0:0:0:0:0:0:1 - - [03/Jul/2019:16:49:07 -0300] "GET /img/Produto.png HTTP/1.1" 200 3479 http-bio-9090-exec-8 32
+0:0:0:0:0:0:0:1 - - [03/Jul/2019:16:49:09 -0300] "GET /Venda.jsp HTTP/1.1" 200 7232 http-bio-9090-exec-9 1
+0:0:0:0:0:0:0:1 - - [03/Jul/2019:16:49:10 -0300] "GET /index.jsp HTTP/1.1" 200 1193 http-bio-9090-exec-10 2
+0:0:0:0:0:0:0:1 - - [03/Jul/2019:16:49:12 -0300] "GET /login.jsp HTTP/1.1" 200 1351 http-bio-9090-exec-10 47
+0:0:0:0:0:0:0:1 - - [03/Jul/2019:16:49:12 -0300] "GET /css/LoginStyle.css HTTP/1.1" 200 162 http-bio-9090-exec-10 2
+0:0:0:0:0:0:0:1 - - [03/Jul/2019:16:49:14 -0300] "GET /Cadastro.jsp HTTP/1.1" 200 3566 http-bio-9090-exec-10 54
