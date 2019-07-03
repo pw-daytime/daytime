@@ -17,7 +17,7 @@
   <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
     <div class="navbar-nav">
       <a class="nav-item nav-link active" href="index.jsp">Início <span class="sr-only">(current)</span></a>
-      <a class="nav-item nav-link" href="Venda.jsp">Venda</a>
+      <a class="nav-item nav-link" href="#">Venda</a>
       <a class="nav-item nav-link" href="#">Produtos</a>
     </div>
   </div>
