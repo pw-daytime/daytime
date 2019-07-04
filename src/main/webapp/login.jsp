@@ -28,7 +28,7 @@
 
             <br>
 
-            <button type="submit" class="btn btn-success"><a href="Venda.jsp">Entrar</a></button>
+            <button type="submit" class="btn btn-success"><a href="Produto.jsp">Entrar</a></button>
             
             <br>
             Ainda não tem uma Conta ? <a href="Cadastro.jsp">Clique aqui para criá-la</a>

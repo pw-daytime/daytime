@@ -19,7 +19,7 @@
     <failOnMissingWebXml>false</failOnMissingWebXml>
     <!-- Porta onde o Tomcat executará em desenvolvimento. O padrão é "8080". -->
     <!-- Definir algo como "9090" diminui a chance de dar conflito de porta, já que a porta "8080" é bastante popular e já pode estar sendo usada.  -->
-    <maven.tomcat.port>9090</maven.tomcat.port>
+    <maven.tomcat.port>8080</maven.tomcat.port>
     <!-- URI do projeto no Tomcat. Precisa começar com "/". Exemplo: "/my-project" ficaria algo como "http://localhost:9090/my-project" -->
     <maven.tomcat.path>/</maven.tomcat.path>
     <!-- Versão do Apache Derby -->

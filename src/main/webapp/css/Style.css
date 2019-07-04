@@ -1,6 +1,3 @@
-body {
-    background-color: lightblue;
-}
 legend { 
     text-align: center 
 }
@@ -9,6 +6,5 @@ form {
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
-    background-color: rgb(165, 165, 147);
     width: 800px;
   }
