@@ -1,0 +1,10 @@
+legend { 
+    text-align: center 
+}
+
+form {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 800px;
+  }

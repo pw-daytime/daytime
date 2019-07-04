@@ -61,7 +61,7 @@
       <div class="form-group">
         <label class="col-md control-label" for="Endereco">Email:</label>
         <div class="col-md">
-          <input id="Email" name="Email" type="email" placeholder="" class="form-control input-md" required="">
+          <input id="Email" name="Endereco" type="email" placeholder="" class="form-control input-md" required="">
         </div>
       </div>
 
@@ -69,7 +69,7 @@
       <div class="form-group">
         <label class="col-md control-label" for="Endereco">Senha:</label>
         <div class="col-md">
-          <input id="Senha" name="Senha" type="password" placeholder="" class="form-control input-md" required="">
+          <input id="Senha" name="Endereco" type="password" placeholder="" class="form-control input-md" required="">
         </div>
       </div>
       <button type="button" class="btn btn-success btn-block" onclick="salvar()">Salvar cadastro</button>
