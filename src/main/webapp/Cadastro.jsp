@@ -7,6 +7,12 @@
     integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
   <link rel="stylesheet" href="css/Style.css">
   <title>Informações de entrega </title>
+  <script>
+    function salvar() {
+        location.href = 'login.jsp';
+    }
+</script>
+
 </head>
 
 <body>
@@ -66,7 +72,7 @@
           <input id="Senha" name="Endereco" type="password" placeholder="" class="form-control input-md" required="">
         </div>
       </div>
-      <button type="button" class="btn btn-success btn-block"><a href="login.jsp">Salvar cadastro</a></button>
+      <button type="button" class="btn btn-success btn-block" onclick="salvar()">Salvar cadastro</button>
     </fieldset>
   </form>
 

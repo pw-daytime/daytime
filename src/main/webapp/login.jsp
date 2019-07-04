@@ -11,6 +11,12 @@
         crossorigin="anonymous"></script>
         <link rel="stylesheet" href="css/LoginStyle.css">
 
+        <script>
+            function entrar() {
+                location.href = 'Produto.jsp';
+            }
+        </script>
+
 </head>
 
 
@@ -28,7 +34,7 @@
 
             <br>
 
-            <button type="submit" class="btn btn-success"><a href="Produto.jsp">Entrar</a></button>
+            <button type="button" class="btn btn-success" onclick="entrar()">Entrar</button>
             
             <br>
             Ainda não tem uma Conta ? <a href="Cadastro.jsp">Clique aqui para criá-la</a>
