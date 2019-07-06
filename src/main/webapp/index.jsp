@@ -17,17 +17,36 @@
   <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
     <div class="navbar-nav">
       <a class="nav-item nav-link active" href="index.jsp">Início <span class="sr-only">(current)</span></a>
+<<<<<<< HEAD
+      <a class="nav-link disabled" href="Venda.jsp">Venda</a>
+      <a class="nav-link disabled" href="#">Produtos</a>
+=======
       <a class="nav-item nav-link" href="#">Venda</a>
       <a class="nav-item nav-link" href="#">Produtos</a>
+>>>>>>> 5f46c8010c48a185031faceaba877f32d4fb6d76
     </div>
   </div>
 </nav>
 
 <body>
-  <h1>PÁGINA EM CONSTRUÇÃO</h1>
-
-  <a href="login.jsp">Clique aqui para fazer o seu pedido</a>
-
+    <div class="d-flex justify-content-center"><h1>DAYTIME </h1></div>
+  <div class="container">
+      <div class="d-flex justify-content-center">
+    <br>
+      <img src="img/cafe.jpg">
+      <br>
+    </div>
+    <br>  Todas as refeições são importantes, mas o café da manhã é fundamental, indispensável para a boa saúde. Assim que acordamos, necessitamos reabastecer o organismo e repor energia para retomar as atividades e iniciarmos um dia ativo e produtivo.
+Durante o sono nosso organismo continua gastando energia para manter suas funções básicas como circulação, respiração, funcionamento do coração e também construir células, queimar gordura e ainda trabalha fazendo detoxificação durante
+a noite para eliminar toxinas produzidas durante o dia. Desta forma produzimos muitos radicais livres. Já até comentei aqui que um pouquinho de radical livre nós até precisamos, mas o excesso é prejudicial e deve ser eliminado. E, como eliminar? Eliminamos com antioxidantes.
+Antioxidantes são, por exemplo, vitaminas A, C, E, fitoquímicos, magnésio, e tudo isso temos nos alimentos, mas precisamos ingerir estes alimentos logo que iniciamos o dia para que tudo funcione bem no nosso corpo.
+Uma regra básica em nutrição é a variedade de alimentos. Sendo assim, não precisamos comer a vida toda o mesmo café da manhã, aliás, devemos variar.
+O ideal para o café da manhã é comer um pouco de cada grupo alimentar, que são carboidratos, proteínas e gorduras, mas os alimentos nunca são compostos de apenas um nutriente, e isso é muito bom. Por exemplo, as frutas são ricas em carboidratos, mas têm também muitas vitaminas, minerais, fibras, fitoquímicos. As castanhas têm muitas gorduras boas (monoinsaturadas) e também fibras, em um pão pode ter fibras e gorduras de sementes e de azeite. Enfim, é preciso variar.
+</div>
+<p></p>
+<div class="d-flex justify-content-center"><a href="login.jsp"><button type="button" class="btn btn-dark">Clique aqui para fazer o seu pedido</button>
+</a></div>
+<p></p>
 </body>
 
 </html>

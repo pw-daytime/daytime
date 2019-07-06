@@ -16,7 +16,10 @@
 </head>
 
 <body>
+<<<<<<< HEAD
+=======
 
+>>>>>>> 5f46c8010c48a185031faceaba877f32d4fb6d76
   <form class="form-horizontal">
     <fieldset>
 
@@ -72,7 +75,11 @@
           <input id="Senha" name="Senha" type="password" placeholder="" class="form-control input-md" required="">
         </div>
       </div>
+<<<<<<< HEAD
+      <button type="submit" class="btn btn-dark btn-block"><a href="login.jsp">Salvar cadastro</a></button>
+=======
       <button type="button" class="btn btn-success btn-block" onclick="salvar()">Salvar cadastro</button>
+>>>>>>> 5f46c8010c48a185031faceaba877f32d4fb6d76
     </fieldset>
   </form>
 
