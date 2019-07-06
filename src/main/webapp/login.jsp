@@ -34,13 +34,9 @@
             <p></p>
             <div class="d-flex justify-content-center"> <br>
 
-<<<<<<< HEAD
-            <button type="submit" class="btn btn-dark"><a href="Venda.jsp">Entrar</a></button>
-=======
             <br>
 
             <button type="button" class="btn btn-success" onclick="entrar()">Entrar</button>
->>>>>>> 5f46c8010c48a185031faceaba877f32d4fb6d76
             
             <br></div>
             Ainda não tem uma Conta ? <a href="Cadastro.jsp">Clique aqui para criá-la</a>
