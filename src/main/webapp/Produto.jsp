@@ -37,11 +37,11 @@
             <legend>Escolha dos Produtos</legend>
             <!-- Lista de produtos -->
             <ul class="list-group">
-                <li class="list-group-item"><img src="img/combo1.jpg" class="rounded-circle" alt="Cinque Terre"
-                        width="150" height="150"> Combo 1 - Um cappuccino e quatro pães de queijo.
+                <li class="list-group-item"><img src="img/combo1.png" class="rounded-circle" alt="Cinque Terre"
+                        width="150" height="150"> Combo 1 - Sanduiche Natural + Suco de Laranja (500 ml).
                     <!-- Valor do produto -->
                     <p>
-                        <h6>Valor unitário<span class="badge badge-secondary">R$ 9,99</span></h6>
+                        <h6>Valor unitário<span class="badge badge-secondary">R$ 14,90</span></h6>
                     </p>
                     <!-- Text input-->
                     <div class="input-group mb-3">
@@ -67,8 +67,8 @@
                     </li>
                     <!-- Lista de produtos -->
                     <ul class="list-group">
-                        <li class="list-group-item"><img src="img/Produto.png" class="rounded-circle" alt="Cinque Terre"
-                                width="150" height="150">Produto 3 - Breve descrição do produto.
+                        <li class="list-group-item"><img src="img/combo3.png" class="rounded-circle" alt="Cinque Terre"
+                                width="150" height="150"> Combo 3 -  Pão de Queijo (4 unidades) + Cappuccino (400 ml).
                             <!-- Valor do produto -->
                             <p>
                                 <h6>Valor unitário<span class="badge badge-secondary">R$ 9,99</span></h6>
