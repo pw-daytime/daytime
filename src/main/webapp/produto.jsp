@@ -70,9 +70,9 @@
             </thead>
             <tr>
                 <td>1234</td>
-                <td>Combo 1 - Sanduiche Natural + Suco de Laranja (500 ml)</td>
+                <td>Combo 2</td>
                 <td>3</td>
-                <td>14,90</td>
+                <td>15,90</td>
                 <td><a href="#">Alterar</a> <a href="#">Excluir</a></td></td></td>
 
             </tr>
