@@ -115,11 +115,11 @@
                     </ul>
                     <!-- Lista de produtos -->
                     <ul class="list-group">
-                        <li class="list-group-item"><img src="img/Produto.png" class="rounded-circle" alt="Cinque Terre"
-                                width="150" height="150"> Combo 6 - Salada de Frutas + Iogurte Light + Fatia de Bolo.
+                        <li class="list-group-item"><img src="img/combo6.png" class="rounded-circle" alt="Cinque Terre"
+                                width="150" height="150"> Combo 6 - Salada de Frutas + Iogurte Light + Fatia de Bolo + Café (P).
                             <!-- Valor do produto -->
                             <p>
-                                <h6>Valor unitário<span class="badge badge-secondary">R$ 9,99</span></h6>
+                                <h6>Valor unitário<span class="badge badge-secondary">R$ 20,90</span></h6>
                             </p>
                             <!-- Text input-->
                             <div class="input-group mb-3">
