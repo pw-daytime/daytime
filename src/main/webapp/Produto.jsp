@@ -37,8 +37,8 @@
             <legend>Escolha dos Produtos</legend>
             <!-- Lista de produtos -->
             <ul class="list-group">
-                <li class="list-group-item"><img src="img/Produto.png" class="rounded-circle" alt="Cinque Terre"
-                        width="150" height="150">Produto 1 - Breve descrição do produto.
+                <li class="list-group-item"><img src="img/combo1.jpg" class="rounded-circle" alt="Cinque Terre"
+                        width="150" height="150"> Combo 1 - Um cappuccino e quatro pães de queijo.
                     <!-- Valor do produto -->
                     <p>
                         <h6>Valor unitário<span class="badge badge-secondary">R$ 9,99</span></h6>
