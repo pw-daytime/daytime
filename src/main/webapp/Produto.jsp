@@ -52,11 +52,11 @@
                 </li>
                 <!-- Lista de produtos -->
                 <ul class="list-group">
-                    <li class="list-group-item"><img src="img/Produto.png" class="rounded-circle" alt="Cinque Terre"
-                            width="150" height="150">Produto 2 - Breve descrição do produto.
+                    <li class="list-group-item"><img src="img/combo2.png" class="rounded-circle" alt="Cinque Terre"
+                            width="150" height="150"> Combo 2 - Wrap de Frango + Água de Coco (200 ml).
                         <!-- Valor do produto -->
                         <p>
-                            <h6>Valor unitário<span class="badge badge-secondary">R$ 9,99</span></h6>
+                            <h6>Valor unitário<span class="badge badge-secondary">R$ 18,90</span></h6>
                         </p>
                         <!-- Text input-->
                         <div class="input-group mb-3">
@@ -83,11 +83,11 @@
                     </ul>
                     <!-- Lista de produtos -->
                     <ul class="list-group">
-                        <li class="list-group-item"><img src="img/Produto.png" class="rounded-circle" alt="Cinque Terre"
-                                width="150" height="150">Produto 4 - Breve descrição do produto.
+                        <li class="list-group-item"><img src="img/combo4.png" class="rounded-circle" alt="Cinque Terre"
+                                width="150" height="150"> Combo 4 - Tapioca + Suco Natural (500 ml).
                             <!-- Valor do produto -->
                             <p>
-                                <h6>Valor unitário<span class="badge badge-secondary">R$ 9,99</span></h6>
+                                <h6>Valor unitário<span class="badge badge-secondary">R$ 16,99</span></h6>
                             </p>
                             <!-- Text input-->
                             <div class="input-group mb-3">
@@ -99,11 +99,11 @@
                     </ul>
                     <!-- Lista de produtos -->
                     <ul class="list-group">
-                        <li class="list-group-item"><img src="img/Produto.png" class="rounded-circle" alt="Cinque Terre"
-                                width="150" height="150">Produto 5 - Breve descrição do produto.
+                        <li class="list-group-item"><img src="img/combo5.png" class="rounded-circle" alt="Cinque Terre"
+                                width="150" height="150"> Combo 5 - Misto Quente + Refrigerante (350 ml).
                             <!-- Valor do produto -->
                             <p>
-                                <h6>Valor unitário<span class="badge badge-secondary">R$ 9,99</span></h6>
+                                <h6>Valor unitário<span class="badge badge-secondary">R$ 8,00</span></h6>
                             </p>
                             <!-- Text input-->
                             <div class="input-group mb-3">
@@ -116,7 +116,7 @@
                     <!-- Lista de produtos -->
                     <ul class="list-group">
                         <li class="list-group-item"><img src="img/Produto.png" class="rounded-circle" alt="Cinque Terre"
-                                width="150" height="150">Produto 6 - Breve descrição do produto.
+                                width="150" height="150"> Combo 6 - Salada de Frutas + Iogurte Light + Fatia de Bolo.
                             <!-- Valor do produto -->
                             <p>
                                 <h6>Valor unitário<span class="badge badge-secondary">R$ 9,99</span></h6>
