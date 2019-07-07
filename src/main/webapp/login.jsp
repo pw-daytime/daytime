@@ -13,7 +13,7 @@
 
         <script>
             function entrar() {
-                location.href = 'Produto.jsp';
+                location.href = 'pedido.jsp';
             }
         </script>
 
@@ -39,7 +39,7 @@
             <button type="button" class="btn btn-success" onclick="entrar()">Entrar</button>
             
             <br></div>
-            Ainda não tem uma Conta ? <a href="Cadastro.jsp">Clique aqui para criá-la</a>
+            Ainda não tem uma Conta ? <a href="cadastro.jsp">Clique aqui para criá-la</a>
             <br>
             <a href="index.jsp">Voltar</a>
 
