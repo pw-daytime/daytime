@@ -14,6 +14,7 @@ public class ProdutoModel {
 	    String password = "postgres";
 	    //Obtendo uma conexão com o banco de dados.
 	    return DriverManager.getConnection(url, user, password);
+		
 	  }
 
 	  public static String incluir(Integer codProd, String nome, Integer quantidade, Double preco) throws Exception {

@@ -1,6 +1,7 @@
 package daytime;
 
 public class Produto {
+	
 	private Integer codProd;
 	private String nome;
 	private Integer quantidade;
