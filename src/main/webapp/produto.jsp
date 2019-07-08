@@ -23,6 +23,7 @@
           <div class="navbar-nav">
             <a class="nav-item nav-link active" href="index.jsp">Início <span class="sr-only">(current)</span></a>
             <a class="nav-item nav-link" href="produto.jsp">Produtos</a>
+            <a class="nav-item nav-link" href="login.jsp">Login</a>
           </div>
         </div>
       </nav>
