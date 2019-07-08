@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
         integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="css/Style.css">
-    <title>Produtos</title>
+    <title>Pedido</title>
     <script>
     function salvarPedido(){
 
@@ -25,7 +25,7 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav">
-            <a class="nav-item nav-link active" href="index.jsp">Início <span class="sr-only">(current)</span></a>
+            <a class="nav-item nav-link " href="index.jsp">Início <span class="sr-only">(current)</span></a>
             <a class="nav-item nav-link" href="produto.jsp">Produtos</a>
             <a class="nav-item nav-link" href="login.jsp">Login</a>
           </div>
