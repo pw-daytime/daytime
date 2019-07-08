@@ -8,7 +8,7 @@ Trabalho de Programação Web - INF - 2019
 * Daniel Cavalcante
 * Thiago Nonato
 
-#Script para criação do banco:
+# Script para criação do banco:
 
 CREATE TABLE PRODUTO (
 CODPROD SERIAL PRIMARY KEY,
