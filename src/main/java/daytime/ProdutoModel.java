@@ -11,26 +11,26 @@ public class ProdutoModel {
 	public static Connection getConnection() throws Exception {
 	    String url = "jdbc:postgresql://localhost:5432/daytime";
 	    String user = "postgres";
-	    String password = "postgres";
-	    //Obtendo uma conexÃ£o com o banco de dados.
+	    String password = "aula321";
+	    //Obtendo uma conexão com o banco de dados.
 	    return DriverManager.getConnection(url, user, password);
 	  }
 
-	  public static String incluir(Integer codProd, String nome, Integer quantidade, Double preco) throws Exception {
+	  public static String incluir(String nome, Integer quantidade, Double preco) throws Exception {
 	    Connection conn = getConnection();
 
-	    String sql = "insert into produto (codprod, nome, quantidade, preco) values (?, ?, ?, ?)";
+	    String sql = "insert into produto (nome, quantidade, preco) values (?, ?, ?)";
 
-	    //Prepara uma sentenÃ§a SQL.
+	    //Prepara uma sentença SQL.
 	    PreparedStatement pstmt = conn.prepareStatement(sql);
-	    pstmt.setInt(1, codProd);
-	    pstmt.setString(2, nome);
-	    pstmt.setInt(3, quantidade);
-	    pstmt.setDouble(4, preco);
+	    
+	    pstmt.setString(1, nome);
+	    pstmt.setInt(2, quantidade);
+	    pstmt.setDouble(3, preco);
 
-	    //Executa sentenÃ§a SQL.
+	    //Executa sentença SQL.
 	    pstmt.execute();
-	    return "Produto incluÃ­do com sucesso.";
+	    return "Produto incluído com sucesso.";
 	  }
 
 	  public static String alterar(Integer codprod, String nome, Integer quantidade, Double preco) throws Exception {
@@ -38,14 +38,14 @@ public class ProdutoModel {
 
 	    String sql = "update produto set nome = ?, preco = ?, quantidade = ? where codprod = ?";
 
-	    //Prepara uma sentenÃ§a SQL.
+	    //Prepara uma sentença SQL.
 	    PreparedStatement pstmt = conn.prepareStatement(sql);
 	    pstmt.setString(1, nome);
 	    pstmt.setDouble(2, preco);
 	    pstmt.setInt(3, quantidade);
 	    pstmt.setInt(4, codprod);
 
-	    //Executa sentenÃ§a SQL.
+	    //Executa sentença SQL.
 	    pstmt.execute();
 	    return "Produto alterado com sucesso.";
 	  }
@@ -55,10 +55,10 @@ public class ProdutoModel {
 
 	    String sql = "select codprod, nome, quantidade, preco from produto";
 
-	    //Prepara uma sentenÃ§a SQL.
+	    //Prepara uma sentença SQL.
 	    PreparedStatement pstmt = conn.prepareStatement(sql);
 
-	    //Executa sentenÃ§a SQL.
+	    //Executa sentença SQL.
 	    ResultSet rs = pstmt.executeQuery();
 
 	    List<Produto> res = new ArrayList();
@@ -77,11 +77,11 @@ public class ProdutoModel {
 
 	    String sql = "delete from produto where codprod = ?";
 
-	    //Prepara uma sentenÃ§a SQL.
+	    //Prepara uma sentença SQL.
 	    PreparedStatement pstmt = conn.prepareStatement(sql);
 	    pstmt.setInt(1, codProd);
 
-	    //Executa sentenÃ§a SQL.
+	    //Executa sentença SQL.
 	    pstmt.execute();
 	  }
 	  

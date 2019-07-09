@@ -1,4 +1,4 @@
-<project
+﻿<project
     xmlns="http://maven.apache.org/POM/4.0.0"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
@@ -22,8 +22,6 @@
     <maven.tomcat.port>8080</maven.tomcat.port>
     <!-- URI do projeto no Tomcat. Precisa começar com "/". Exemplo: "/my-project" ficaria algo como "http://localhost:9090/my-project" -->
     <maven.tomcat.path>/</maven.tomcat.path>
-    <!-- Versão do Apache Derby -->
-    <derby.version>10.14.2.0</derby.version>
   </properties>
 
   <dependencies>
@@ -41,11 +39,11 @@
     </dependency>
 
     <!-- Para usar o driver do banco de dados Derby. -->
-    <dependency>
-      <groupId>org.apache.derby</groupId>
-      <artifactId>derbyclient</artifactId>
-      <version>${derby.version}</version>
-    </dependency>
+<dependency>
+    <groupId>org.postgresql</groupId>
+    <artifactId>postgresql</artifactId>
+    <version>42.2.5</version>
+</dependency>
   </dependencies>
 
   <build>
@@ -60,55 +58,7 @@
         <version>2.2</version>
       </plugin>
 
-      <!-- Para executar o banco de dados Derby pelo Maven. -->
-      <plugin>
-        <groupId>org.codehaus.mojo</groupId>
-        <artifactId>exec-maven-plugin</artifactId>
-        <version>1.6.0</version>
-        <executions>
-          <execution>
-            <id>derby-start</id>
-            <goals>
-              <goal>java</goal>
-            </goals>
-            <configuration>
-              <includeProjectDependencies>false</includeProjectDependencies>
-              <includePluginDependencies>true</includePluginDependencies>
-              <mainClass>org.apache.derby.drda.NetworkServerControl</mainClass>
-              <arguments>
-                <argument>start</argument>
-                <argument>-noSecurityManager</argument>
-              </arguments>
-            </configuration>
-          </execution>
-          <execution>
-            <id>derby-stop</id>
-            <goals>
-              <goal>java</goal>
-            </goals>
-            <configuration>
-              <includeProjectDependencies>false</includeProjectDependencies>
-              <includePluginDependencies>true</includePluginDependencies>
-              <mainClass>org.apache.derby.drda.NetworkServerControl</mainClass>
-              <arguments>
-                <argument>shutdown</argument>
-              </arguments>
-            </configuration>
-          </execution>
-        </executions>
-        <dependencies>
-          <dependency>
-            <groupId>org.apache.derby</groupId>
-            <artifactId>derby</artifactId>
-            <version>${derby.version}</version>
-          </dependency>
-          <dependency>
-            <groupId>org.apache.derby</groupId>
-            <artifactId>derbynet</artifactId>
-            <version>${derby.version}</version>
-          </dependency>
-        </dependencies>
-      </plugin>
+
 
     </plugins>
   </build>
