@@ -8,21 +8,21 @@
     <persistence-unit name="daytime">
          <!-- Instruindo ao JPA que será usado Hibernate. -->
     <provider>org.hibernate.ejb.HibernatePersistence</provider>
+
     <class>daytime.Produto</class>
 
         <properties>
-            <property name="javax.persistence.jdbc.driver" value="org.postgresql.Driver" />
-            <property name="javax.persistence.jdbc.url" value="jdbc:postgresql://127.0.0.1:5432/daytime"/>
-            <property name="javax.persistence.jdbc.user" value="postgres" />
-            <property name="javax.persistence.jdbc.password" value="postgres"/>
-
-            <property name="hibernate.dialect" value="org.hibernate.dialect.PostgreSQLDialect"/>
+            <property name="hibernate.dialect" value="org.hibernate.dialect.PostgreSQL9Dialect" />
+            <property name="hibernate.connection.driver_class" value="org.postgresql.Driver" />
+            <property name="hibernate.connection.url" value="jdbc:postgresql://localhost:5432/daytime" />
+            <property name="hibernate.connection.username" value="postgres" />
+            <property name="hibernate.connection.password" value="postgres" />
             <property name="hibernate.show_sql" value="true" />
             <property name="hibernate.format_sql" value="true" />
             <property name="hibernate.hbm2ddl.auto" value="update" />
 			
 			<property name="hibernate.connection.provider_class"
-            value="org.hibernate.connection.C3P0ConnectionProvider" />
+            value="org.hibernate.c3p0.internal.C3P0ConnectionProvider" />
             <property name="hibernate.c3p0.min_size" value="10" />
             <property name="hibernate.c3p0.max_size" value="20" />
         </properties>
