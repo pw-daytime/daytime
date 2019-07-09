@@ -1,7 +1,11 @@
 package daytime;
 
+import javax.persistence.Entity;
+import javax.persistence.Id;
+
+@Entity
 public class Produto {
-	
+	@Id
 	private Integer codProd;
 	private String nome;
 	private Integer quantidade;

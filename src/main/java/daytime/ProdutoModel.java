@@ -11,7 +11,7 @@ public class ProdutoModel {
 	public static Connection getConnection() throws Exception {
 	    String url = "jdbc:postgresql://localhost:5432/daytime";
 	    String user = "postgres";
-	    String password = "aula321";
+	    String password = "postgres";
 	    //Obtendo uma conexão com o banco de dados.
 	    return DriverManager.getConnection(url, user, password);
 	  }

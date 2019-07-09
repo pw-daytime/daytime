@@ -20,7 +20,7 @@ public class dbtest {
 		
         // auto close connection
         try (Connection conn = DriverManager.getConnection(
-                "jdbc:postgresql://127.0.0.1:5432/daytime", "postgres", "aula321")) {
+                "jdbc:postgresql://127.0.0.1:5432/daytime", "postgres", "postgres")) {
 
             if (conn != null) {
                 System.out.println("Connected to the database!");
