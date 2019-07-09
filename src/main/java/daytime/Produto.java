@@ -49,9 +49,6 @@ public class Produto {
 		this.nome = nome;
 		this.quantidade = quantidade;
 		this.preco = preco;
-	}
-	
-	
-	
+	}	
 	
 }

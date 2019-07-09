@@ -88,15 +88,15 @@
             </tr>
         </thead>
         <%
-						List<Produto> produtos = (List) request.getAttribute("produtos");
-						if (produtos != null) {
-						for (Produto produto : produtos) {
-							Integer codProd = produto.getCodProd();
-                            String nome = produto.getNome();
-                            Integer quantidade = produto.getQuantidade();
-							Double preco = produto.getPreco();
-							
-					%>
+            List<Produto> produtos = (List) request.getAttribute("produtos");
+            if (produtos != null) {
+            for (Produto produto : produtos) {
+                Integer codProd = produto.getCodProd();
+                String nome = produto.getNome();
+                Integer quantidade = produto.getQuantidade();
+                Double preco = produto.getPreco();
+                
+        %>
         <tr>
             <td><%=codProd%></td>
             <td>
@@ -107,6 +107,10 @@
             <td> R$ <%=preco%></td>
             <td><a href="?operacao=excluir&codProd=<%=codProd%>">Excluir</a></td>
         </tr>
+        <%
+        }
+          }
+%>
         <tr>
             <td>1234</td>
             <td>Combo 1 - Sanduiche Natural + Suco de Laranja (500 ml)</td>
@@ -117,11 +121,6 @@
             </td>
 
         </tr>
-
-        <%
-        }
-          }
-%>
 
     </table>
     </div>

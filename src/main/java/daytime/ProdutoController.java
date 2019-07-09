@@ -5,9 +5,6 @@ import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-
-import daytime.ProdutoModel;
-
 import java.io.IOException;
 import java.util.List;
 
@@ -82,7 +79,8 @@ public class ProdutoController extends HttpServlet {
     }
 
     private void listar(HttpServletRequest req, HttpServletResponse resp) throws Exception {
-        List produtos = ProdutoModel.listar();
+        //List produtos = ProdutoModel.listar();
+        List<Produto> produtos = ProdutoModel.listar();
         req.setAttribute("produtos", produtos);
     }
 
