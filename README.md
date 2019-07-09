@@ -1,35 +1,18 @@
-# PetShop
+# daytime
+Trabalho de Programação Web - INF - 2019
 
-Exemplo de uma aplicação Java/Web.
+ Site sobre alimentação no café da manhã
 
-### Para iniciar o banco de dados Derby
+# Alunos:
+* Carla Franciny
+* Daniel Cavalcante
+* Thiago Nonato
 
-`mvn exec:java@derby-start`
+# Script para criação do banco:
 
-### Para parar o banco de dados Derby
-
-`mvn exec:java@derby-stop`
-
-## Executar
-
-```sh
-mvn tomcat7:run
-```
-
-## Criação do banco de dados
-
-```sql
-create table PRODUTO (
-  CODIGO INTEGER,
-  NOME   VARCHAR(100),
-  PRECO  DECIMAL(5,2)
+CREATE TABLE PRODUTO (
+CODPROD SERIAL PRIMARY KEY,
+NOME VARCHAR(90),
+QUANTIDADE NUMERIC(10),
+PRECO NUMERIC(10)
 );
-```
-
-## Preparação do projeto
-
-Instalação do Maven Wrapper. Para possibilitar executar o projeto mesmo que o Maven não esteja instalado e configurado.
-
-```sh`
-mvn -N io.takari:maven:0.7.6:wrapper -Dmaven=3.6.1
-```

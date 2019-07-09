@@ -1,5 +1,1 @@
-.idea
-db
-target
-derby.log
-petshop.iml
+target/
