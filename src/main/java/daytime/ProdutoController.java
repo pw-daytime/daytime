@@ -58,7 +58,7 @@ public class ProdutoController extends HttpServlet {
             String precoStr = req.getParameter("preco");
             Double preco = Double.parseDouble(precoStr);
 
-            resultado = ProdutoModel.incluir(nome, quantidade, preco);
+            resultado = ProdutoModel.incluir(codProd, nome, quantidade, preco);
         }
         // Adiciona a variável na requisição para o JSP trabalhar.
         req.setAttribute("resultado", resultado);

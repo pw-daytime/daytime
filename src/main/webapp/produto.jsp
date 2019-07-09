@@ -1,6 +1,4 @@
 <%@ page contentType="text/html; charset=UTF-8" %>
-<%@ page import="java.util.List" %>
-<%@ page import="daytime.Produto" %>
 <!DOCTYPE html>
 <html>
 
@@ -9,15 +7,6 @@
         integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="css/Style.css">
     <title>Pedidos</title>
-	
-		<script>
-			function editar(codigo, nome, preco, quantidade) {
-			  $("#codigo").val(codigo);
-			  $("#nome").val(nome);
-			  $("#preco").val(preco);
-			  $("#quantidade").val(quantidade);
-			}
-		</script>
 
 </head>
 
@@ -56,15 +45,12 @@
                 </div>
             </div>
                 <div class="form-group">
-                    <button type="submit" name="operacao" value="alterar" class="btn btn-primary">Alterar</button>
-                    <button type="submit" name="operacao" value="incluir" class="btn btn-primary">Incluir</button>
+                    <button type="button" class="btn btn-primary">Consultar</button>
+                    <button type="button" class="btn btn-primary">Novo</button>
                 </div>
             </div>
 
         </form>
-		        <div>
-					${resultado}
-				</div>
         <br>
         <br>
         <br>
@@ -83,26 +69,7 @@
 
                 </tr>
             </thead>
-					<%
-						List<Produto> produtos = (List) request.getAttribute("produtos");
-						if (produtos != null) {
-						for (Produto produto : produtos) {
-							Integer codProd = produto.getCodProd();
-							String nome = produto.getNome();
-							Double preco = produto.getPreco();
-							Integer quantidade = produto.getQuantidade();
-					%>
             <tr>
-			<td><%=codProd%></td>
-        <td>
-            <a href="#" onclick="editar('<%=codProd%>', '<%=nome%>', '<%=preco%>')">
-            <%=nome%>
-            </a>
-        </td>
-        <td> R$ <%=preco%></td>
-            <td><a href="?operacao=excluir&codProd=<%=codProd%>">Excluir</a></td>
-            </tr>
-
                 <td>1234</td>
                 <td>Combo 1 - Sanduiche Natural + Suco de Laranja (500 ml)</td>
                 <td>3</td>
@@ -110,11 +77,6 @@
                 <td><a href="#">Alterar</a> <a href="#">Excluir</a></td></td></td>
 
             </tr>
-			
-<%
-        }
-          }
-%>
 
         </table>
     </div>
