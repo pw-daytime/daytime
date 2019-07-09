@@ -2,7 +2,7 @@
 <%@ page import="java.util.List" %>
 <%@ page import="daytime.Produto" %>
 <%@ page import="daytime.ProdutoModel"%>
-<%@ page import="daytime.ProdutoController" %>
+<%@ page import="daytime.ProdutoController"%>
 <!DOCTYPE html>
 <html>
 
@@ -24,23 +24,22 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">
-            <img src="img/logomarca.png" class="rounded-circle" alt="Cinque Terre" width="120" height="80">
-        </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
-            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-                <a class="nav-item nav-link" href="index.jsp">Início </a>
-                <a class="nav-item nav-link  active" href="produto.jsp">Produtos <span
-                        class="sr-only">(current)</span></a>
-                <a class="nav-item nav-link" href="login.jsp">Login</a>
-            </div>
-        </div>
-    </nav>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#">
+    <img src="img/logomarca.png" class="rounded-circle" alt="Cinque Terre" width="120" height="80">
+  </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+    aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <div class="navbar-nav">
+      <a class="nav-item nav-link active" href="index.jsp">Início <span class="sr-only">(current)</span></a>
+      <a class="nav-item nav-link" href="produto">Produtos</a>
+      <a class="nav-item nav-link" href="login.jsp">Login</a>
+    </div>
+  </div>
+</nav>
 
     <div class="container">
         <form>
@@ -100,23 +99,26 @@
         <tr>
             <td><%=codProd%></td>
             <td>
-                <a href="#" onclick="editar('<%=codProd%>', '<%=nome%>', '<%=preco%>')">
-                    <%=nome%>
+                <a href="#" onclick="editar('<%=codProd%>', '<%=nome%>', '<%=quantidade%>', '<%=preco%>')">
+                <%=nome%>
                 </a>
             </td>
+            <td><%=quantidade%></td>
             <td> R$ <%=preco%></td>
             <td><a href="?operacao=excluir&codProd=<%=codProd%>">Excluir</a></td>
         </tr>
+
         <%
         }
           }
-%>
+        %>
+
         <tr>
             <td>1234</td>
             <td>Combo 1 - Sanduiche Natural + Suco de Laranja (500 ml)</td>
             <td>3</td>
             <td>14,90</td>
-            <td><a href="#">Alterar</a> <a href="#">Excluir</a></td>
+            <td><a href="#">Excluir</a></td>
             </td>
             </td>
 

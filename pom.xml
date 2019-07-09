@@ -24,33 +24,37 @@
     <maven.tomcat.path>/</maven.tomcat.path>
   </properties>
 
-  <dependencies>
+    <dependencies>
 
-    <!-- Dependência com a biblioteca de Servlet versão 3. -->
-    <dependency>
-      <!-- Identificação do grupo da biblioteca.  -->
-      <groupId>javax.servlet</groupId>
-      <!-- Identificação da biblioteca.  -->
-      <artifactId>javax.servlet-api</artifactId>
-      <!-- Versão da biblioteca.  -->
-      <version>3.1.0</version>
-      <!-- Instrução que faz com que o Maven exclua essa biblioteca do pacote final do projeto. É que os servidores de aplicação já possuem essa biblioteca dentro deles.  -->
-      <scope>provided</scope>
-    </dependency>
+        <!-- Dependência com a biblioteca de Servlet versão 3. -->
+        <dependency>
+            <!-- Identificação do grupo da biblioteca.  -->
+            <groupId>javax.servlet</groupId>
+            <!-- Identificação da biblioteca.  -->
+            <artifactId>javax.servlet-api</artifactId>
+            <!-- Versão da biblioteca.  -->
+            <version>3.1.0</version>
+            <!-- Instrução que faz com que o Maven exclua essa biblioteca do pacote final do projeto. É que os servidores de aplicação já possuem essa biblioteca dentro deles.  -->
+            <scope>provided</scope>
+        </dependency>
 
-    <!-- Para usar o driver do banco de dados Postgres. -->
-<dependency>
-    <groupId>org.postgresql</groupId>
-    <artifactId>postgresql</artifactId>
-    <version>42.2.5</version>
-</dependency>
-
-<dependency>
-    <groupId>org.hibernate.javax.persistence</groupId>
-    <artifactId>hibernate-jpa-2.1-api</artifactId>
-    <version>1.0.0.Final</version>
-</dependency>
-  </dependencies>
+        <!-- Para usar o driver do banco de dados Postgres. -->
+        <dependency>
+            <groupId>org.postgresql</groupId>
+            <artifactId>postgresql</artifactId>
+            <version>42.2.5</version>
+        </dependency>
+        <dependency>
+            <groupId>org.hibernate</groupId>
+            <artifactId>hibernate-entitymanager</artifactId>
+            <version>4.3.1.Final</version>
+        </dependency>
+        <dependency>
+            <groupId>org.hibernate</groupId>
+            <artifactId>hibernate-c3p0</artifactId>
+            <version>4.3.1.Final</version>
+        </dependency>
+    </dependencies>
 
   <build>
     <plugins>
