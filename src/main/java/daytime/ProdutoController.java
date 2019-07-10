@@ -44,12 +44,10 @@ public class ProdutoController extends HttpServlet {
     
     private void incluir(HttpServletRequest req, HttpServletResponse resp) throws Exception {
         String resultado = "";
-        String codProdStr = req.getParameter("codProd");
+        String nome = req.getParameter("nome");
         
-        if (codProdStr != null) {
+        if (nome != null) {
         	
-            Integer codProd = Integer.parseInt(codProdStr);
-            String nome = req.getParameter("nome");
             String quantidadeStr = req.getParameter("quantidade");
             Integer quantidade = Integer.parseInt(quantidadeStr);
             String precoStr = req.getParameter("preco");
@@ -57,7 +55,7 @@ public class ProdutoController extends HttpServlet {
 
             resultado = ProdutoModel.incluir(nome, quantidade, preco);
         }
-        // Adiciona a variável na requisição para o JSP trabalhar.
+        // Adiciona a variÃ¡vel na requisiÃ§Ã£o para o JSP trabalhar.
         req.setAttribute("resultado", resultado);
     }
 
