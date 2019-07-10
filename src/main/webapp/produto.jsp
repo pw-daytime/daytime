@@ -25,21 +25,20 @@
 
 <body>
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="#">
-        <img src="img/logomarca.png" class="rounded-circle" alt="Cinque Terre" width="120" height="80">
-    </a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
-            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <div class="navbar-nav">
-            <a class="nav-item nav-link" href="index.jsp">Início </a>
-            <a class="nav-item nav-link  active" href="produto.jsp">Produtos <span
-                    class="sr-only">(current)</span></a>
-            <a class="nav-item nav-link" href="login.jsp">Login</a>
-        </div>
+  <a class="navbar-brand" href="#">
+    <img src="img/logomarca.png" class="rounded-circle" alt="Cinque Terre" width="120" height="80">
+  </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+    aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <div class="navbar-nav">
+      <a class="nav-item nav-link active" href="index.jsp">Início <span class="sr-only">(current)</span></a>
+      <a class="nav-item nav-link" href="produto">Produtos</a>
+      <a class="nav-item nav-link" href="login.jsp">Login</a>
     </div>
+  </div>
 </nav>
 
 <div class="container">
